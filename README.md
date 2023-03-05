@@ -53,6 +53,7 @@ Le projet est à faire par équipe de 4 maximum et 2 minimum. Il sera noté sur 
 - [Python 3.10](https://docs.python.org/3.10/)
 - [API Discord Py](https://discordpy.readthedocs.io/en/stable/)
 - [API Discord Pycord](https://docs.pycord.dev/en/stable/)
+- [API Open Weather Map](https://openweathermap.org/)
 
 
 ## Fonctionnement du bot
@@ -76,7 +77,9 @@ Pour faire fonctionner le bot, installer au préalable sur votre machine ces dé
 
 ### Modification à faire
 
-A la ligne 160, remplacer `id_channel` par l'ID du channel que vous souhaitez où le bot apparait.
+- ligne 160, remplacer `id_channel` par l'ID du channel que vous souhaitez où le bot apparait.
+- ligne 975, remplacer `'token_api` par votre token Open Weather Map
+- la dernière ligne, remplacer `TOKEN` par le token de votre bot !
 
 
 ### Commandes disponibles

@@ -972,7 +972,7 @@ async def dog(ctx):
 @bot.command(name = 'weather', aliases = ['w', 'meteo', 'm'])
 async def weather(ctx) :
   couleur = random.choice(bot.liste_couleurs)
-  api_weather_token = 'e9f3750ffd4e3ac5ecd6061cc1bbd2fc'
+  api_weather_token = 'token_api'
  
   city_name = ctx.message.content.split('"')[1::2] 
   
